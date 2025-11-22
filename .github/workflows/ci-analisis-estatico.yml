@@ -21,4 +21,5 @@ jobs:
           java-version: "11"
 
       - name: Compilar y ejecutar análisis estático
-        run: mvn -B clean verify
+        run: mvn -B -f laboratorio-calidad-codigo/pom.xml clean verify
+
