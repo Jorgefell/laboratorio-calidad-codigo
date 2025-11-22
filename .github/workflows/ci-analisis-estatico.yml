@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: "11"
+          java-version: "21"
 
       - name: Compilar y ejecutar análisis estático
         run: mvn -B -f laboratorio-calidad-codigo/pom.xml clean verify
